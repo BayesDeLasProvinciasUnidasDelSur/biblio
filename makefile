@@ -16,4 +16,7 @@ down:
 
 download_topic:
 	sh topic.sh topic/$t
-	
+
+mirrors:
+	sh git-mirror.sh git@git.exactas.uba.ar:bayes/biblio.git
+	sh git-mirror.sh git@github.com:BayesDeLasProvinciasUnidasDelSur/biblio.git
